@@ -1,0 +1,32 @@
+{
+  "appId": "com.codeempire.app",
+  "appName": "Code Empire",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "loggingBehavior": "production",
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false,
+    "backgroundColor": "#0b1019"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 800,
+      "launchAutoHide": true,
+      "backgroundColor": "#0b1019",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false,
+      "androidSpinnerStyle": "small",
+      "spinnerColor": "#4b7bff"
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#0b1019"
+    },
+    "Preferences": {
+      "saveKeyMigration": true
+    }
+  }
+}

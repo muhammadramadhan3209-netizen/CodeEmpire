@@ -1,0 +1,32 @@
+{
+  "package_name": "com.codeempire.app",
+  "name": "Code Empire",
+  "version_name": "0.1.6",
+  "version_code": 6,
+  "min_sdk_version": 23,
+  "target_sdk_version": 34,
+  "orientation": "landscape",
+  "fullscreen": true,
+  "web_dir": "dist",
+  "build_path": "android",
+  "background_color": "#0b1019",
+  "splash": {
+    "enabled": true,
+    "background_color": "#0b1019",
+    "show_duration": 800
+  },
+  "icon": {
+    "source": "resources/icon.png",
+    "platforms": {
+      "android": {
+        "adaptive_icon": {
+          "foreground": "resources/icon-foreground.png",
+          "background": "#0b1019"
+        }
+      }
+    }
+  },
+  "android_back_handler": "globalThis.__codeempire?.backHandler",
+  "android_haptics": true,
+  "android_local_notifications": true
+}

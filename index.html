@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#0b1019">
+  <meta name="description" content="Code Empire, developer tycoon lengkap dengan startup, product, investor, market, dan jalur Shadow Hacker.">
+  <title>Code Empire</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="rotate-prompt" class="rotate-prompt" aria-live="polite">
+  <div class="rotate-icon">&#8635;</div>
+  <div class="rotate-title">Putar HP Kamu</div>
+  <div class="rotate-copy">Code Empire dimainkan dalam mode landscape. Miringkan HP ke samping untuk lanjut.</div>
+</div>
+<div id="app" class="app-shell">
+  <header class="topbar">
+    <div>
+      <div class="brand">CODE EMPIRE</div>
+      <div class="tagline">Startup &amp; Hacker Tycoon</div>
+    </div>
+    <button class="icon-btn" aria-label="Tentang game" data-action="toast" data-message="Code Empire V0.1 Phase 4 • progress tersimpan otomatis."><span data-ui-key="settings" data-asset="ui-settings"></span></button>
+  </header>
+
+  <main id="screen" class="screen"></main>
+
+  <nav class="bottom-nav" aria-label="Navigasi game">
+    <button class="nav-btn active" data-screen="home"><span data-nav-key="home" data-asset="nav-home"></span><small>HOME</small></button>
+    <button class="nav-btn" data-screen="work"><span data-nav-key="work" data-asset="nav-work"></span><small>WORK</small></button>
+    <button class="nav-btn" data-screen="projects"><span data-nav-key="projects" data-asset="nav-projects"></span><small>PROJECTS</small></button>
+    <button class="nav-btn" data-screen="clients"><span data-nav-key="clients" data-asset="nav-clients"></span><small>CLIENTS</small></button>
+    <button class="nav-btn" data-screen="recruitment"><span data-nav-key="recruitment" data-asset="nav-recruitment"></span><small>RECRUIT</small></button>
+    <button class="nav-btn" data-screen="office"><span data-nav-key="office" data-asset="nav-office"></span><small>OFFICE</small></button>
+    <button class="nav-btn" data-screen="productDev"><span data-nav-key="productDev" data-asset="nav-productDev"></span><small>PRODUCT</small></button>
+    <button class="nav-btn" data-screen="hackerHub"><span data-nav-key="hackerHub" data-asset="nav-hackerHub"></span><small>HACKER</small></button>
+    <button class="nav-btn" data-screen="shop"><span data-nav-key="shop" data-asset="nav-shop"></span><small>SHOP</small></button>
+    <button class="nav-btn" data-screen="achievements"><span data-nav-key="achievements" data-asset="nav-achievements"></span><small>BADGES</small></button>
+    <button class="nav-btn" data-screen="quests"><span data-nav-key="quests" data-asset="nav-quests"></span><small>QUEST</small></button>
+    <button class="nav-btn" data-screen="company"><span data-nav-key="company" data-asset="nav-company"></span><small>COMPANY</small></button>
+    <button class="nav-btn" data-screen="settings"><span data-nav-key="settings" data-asset="nav-settings"></span><small>SETTINGS</small></button>
+  </nav>
+
+  <div id="toast" class="toast" role="status"></div>
+  <div id="floating-layer" aria-hidden="true"></div>
+  <div id="modal-layer" class="modal-layer" aria-live="polite"></div>
+</div>
+
+<script type="module" src="js/game.js"></script>
+</body>
+</html>
